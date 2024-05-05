@@ -6,7 +6,7 @@ def get_exchange_rate(from_currency, to_currency):
     return exchange_rates.get((from_currency, to_currency))
 
 def convert_currency(amount, from_currency, to_currency):
-    if amount <= 0:
+    if amount<=0:
         print("Hibás összeg. Az átváltott összegnem lehet negatív!")
         return
 

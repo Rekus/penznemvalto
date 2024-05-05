@@ -34,5 +34,5 @@ repo.index.commit("Fájlmódosítások a 'bugfix' ágon")
 
 print("Az összes ág és azok legújabb commitja:")
 for branch in repo.branches:
-    print(branch, repo,commit)
+    print(branch, repo.commit)
 

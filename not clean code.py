@@ -1,6 +1,6 @@
 def currency_converter(amount, from_currency, to_currency):
     x = 1.15
-    amount_1 = 0
+    amount_1=0
 
     if amount < 0:
         print("Hibás összeg. Az átváltott összeg nem lehet negatív!")
